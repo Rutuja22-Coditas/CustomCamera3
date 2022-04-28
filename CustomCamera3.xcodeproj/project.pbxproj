@@ -13,6 +13,7 @@
 		7E3AB4A4281A2BEE0090996F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB4A2281A2BEE0090996F /* Main.storyboard */; };
 		7E3AB4A6281A2BF20090996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB4A5281A2BF20090996F /* Assets.xcassets */; };
 		7E3AB4A9281A2BF20090996F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB4A7281A2BF20090996F /* LaunchScreen.storyboard */; };
+		7E3AB4B1281A2ED10090996F /* PhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB4B0281A2ED10090996F /* PhotoPreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E3AB4A5281A2BF20090996F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3AB4A8281A2BF20090996F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3AB4AA281A2BF20090996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3AB4B0281A2ED10090996F /* PhotoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7E3AB4A5281A2BF20090996F /* Assets.xcassets */,
 				7E3AB4A7281A2BF20090996F /* LaunchScreen.storyboard */,
 				7E3AB4AA281A2BF20090996F /* Info.plist */,
+				7E3AB4B0281A2ED10090996F /* PhotoPreviewViewController.swift */,
 			);
 			path = CustomCamera3;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3AB4B1281A2ED10090996F /* PhotoPreviewViewController.swift in Sources */,
 				7E3AB4A1281A2BEE0090996F /* ViewController.swift in Sources */,
 				7E3AB49D281A2BEE0090996F /* AppDelegate.swift in Sources */,
 				7E3AB49F281A2BEE0090996F /* SceneDelegate.swift in Sources */,
